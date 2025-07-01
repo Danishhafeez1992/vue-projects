@@ -18,7 +18,6 @@ const counter = ref(0)
 watch(counter, (newValue, oldValue) => {
   alert(`The old value is ${oldValue}: and the new Value is: ${newValue}`)
   console.log("Hello World");
-  
 })
 
 
